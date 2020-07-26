@@ -53,6 +53,9 @@ document
         event.target.parentNode.parentNode.removeChild(event.target.parentNode);
         savings.innerHTML = `Savings: $${calcSavings()}`;
       }
+      totalInc.innerHTML = `Total income: $${calcTotal(incomes)}`;
+      totalExp.innerHTML = `Total expenses: $${calcTotal(expenses)}`;
+      savings.innerHTML = `Savings: $${calcSavings()}`;
     }
   });
 
