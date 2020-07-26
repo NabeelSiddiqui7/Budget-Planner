@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Budget</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="title">Budget Planner</h1>
+      <h2 class="budget">Budget: $0</h2>
+    </nav>
+    <div class="input-container">
+      <input type="text" class="add-title" placeholder="Enter a title" />
+      <input type="number" class="add-amount" placeholder="Enter amount" />
+      <button class="add-inc">+</button>
+      <button class="add-exp">-</button>
+    </div>
+    <div class="budget-container">
+      <div class="income-container">
+        <h2>Income</h2>
+      </div>
+      <div class="expense-container">
+        <h2>Expenses</h2>
+      </div>
+    </div>
+    <div class="savings-container">
+      <p class="total-inc">Total income: $0</p>
+      <p class="total-exp">Total expenses: $0</p>
+      <p class="savings">Savings: $0</p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

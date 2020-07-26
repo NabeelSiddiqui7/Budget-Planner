@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #003a77;
+  color: white;
+  text-align: center;
+  height: 20vh;
+  padding: 1.5em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-bottom: #dbdbdb 1px solid;
+  font-size: 0.5rem;
+  background-color: rgb(203, 226, 248);
+}
+
+.input-container input {
+  margin: 0 0.5em;
+}
+
+.input-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-container button {
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.add-inc {
+  background-color: rgb(64, 224, 58);
+}
+.add-exp {
+  background-color: red;
+}
+.budget-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.budget-container h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.budget-container button {
+  border: none;
+  color: white;
+  background-color: rgb(226, 87, 87);
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.income-container {
+  width: 50%;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.income-container h2 {
+  color: rgb(64, 224, 58);
+}
+
+.expense-container {
+  width: 50%;
+  margin: 0 0.5em;
+  padding: 0.5em;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.expense-container h2 {
+  color: red;
+}
+
+.income {
+  border-top: #f3f3f3 1px solid;
+  border-bottom: #f3f3f3 1px solid;
+  display: flex;
+  padding: 0.5em;
+  margin: 0.2em 0 0 0;
+}
+
+.inc-value {
+  flex: 1;
+  text-align: right;
+  color: rgb(64, 224, 58);
+}
+
+.expense {
+  border-top: #f3f3f3 1px solid;
+  border-bottom: #f3f3f3 1px solid;
+  display: flex;
+  padding: 0.5em;
+  margin: 0.2em 0 0 0;
+}
+
+.exp-value {
+  flex: 1;
+  text-align: right;
+  color: red;
+}
+
+.savings-container {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.total-exp {
+  padding-bottom: 0.5em;
+  text-decoration: underline;
+}
